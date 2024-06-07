@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
   padding: 0;
   margin: 0;
@@ -12,25 +13,30 @@ body{
   font-family: "Montserrat", sans-serif;
   margin: 10px;
 }
+
 h1{
   margin: 20px 0px;
 }
+
 h2{
   text-align: right;
   
 }
+
 h1, h2 {
   color: darkgreen;
 }
+
 p.bold{
   font-weight: bold;
 }
+
 p.parrafo{
   font-size: 20px;
   color: #323232;
 }
 
-p ~ p.bold{
+p.derecha{
   text-align: right;
   font-size: 26px;
 }
@@ -43,16 +49,19 @@ p{
 }
 
 a{
-
-  font-size: 28px;
+  font-size: 30px;
   color: #fff;
   background-color:firebrick;
-  width: 300px;
+  width: 250px;
+  height: 250px;
   text-decoration: none;
-  padding: 20px 40px;
+  padding: 50px;
   text-transform: capitalize;
-  border-radius:30px ;
+  border-radius:50% ;
   display: block;
   text-align: center;
-  margin: 0 auto;
+  margin:0 auto;
+  place-content: center;
+  border: 10px dotted #fff;
+  box-shadow: -10px 10px 10px black ;
 }
