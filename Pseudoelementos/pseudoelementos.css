@@ -22,17 +22,19 @@ body{
 }
 
 .card__title{
-  text-align: center;
-  padding-bottom: 7px;
-  margin-bottom: 15px;
+  /* text-align: center; */
+  padding-bottom: 10px;
+  /* margin-bottom: 15px; */
+  display: inline;
 }
 
 .card__title::before, .card__title::after{
-  content: "-";
-  /* width: 100%;
+  content: "";
+  width: 20%;
   height: 3px;
-  display: block;
-  background-color: #000; */
+  display: inline-block;
+  background-color: #000;
+  margin: 0 5px 5px;
 }
 
 ul{
@@ -56,5 +58,6 @@ li::before{
   text-align: center;
   line-height: 30px;
   border-radius: 50%;
+  margin-top: 5px;
   margin-right: 5px;
 }
