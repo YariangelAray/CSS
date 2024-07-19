@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --fondo: #000;
+  --color: #a1a1a1;
+  --width: 1200px;
+  --heigth: 70px;
+  --border-radius: 5px
+}
+body{
+  background-color: var(--fondo);
+  color: var(--color);
+}
+
+header{
+  background-color: var(--color);
+  color: var(--fondo);
+  max-width: var(--width);
+  margin: 0 auto;
+  height: var(--heigth);
+  border-radius: var(--border-radius);
+}
+
+form{
+  width: 450px;
+  margin: 0 auto;
+  margin-top: 40px;
+  background-color: var(--color);
+  padding: 12px;
+  color: var(--fondo);
+}
+
+
+input, label, textarea, button{
+  display: block;
+  margin: 6px 0;
+}
+
+input, textarea{
+  width: 100%;
+  padding: 12px;
+  border: none;
+  outline: none;
+  border-radius: var(--border-radius);
+  resize: none;
+  font-size: 16px;
+  border: solid 1px var(--fondo);
+}
+
+button{
+  width: 100%;
+  padding: 12px;
+  border-radius: var(--border-radius);
+  border: none;
+  font-size: 16px;
+  color: var(--color);
+  cursor: pointer;
+  border: 1px solid var(--color);
+  background-color: var(--fondo);
+}
+
+button:hover{
+  border: 1px solid var(--fondo);
+  background-color: var(--color);
+  color: var(--fondo);
+}
